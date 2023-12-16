@@ -1,6 +1,8 @@
 # JMComic-Crawler-Lite
 極度輕量化的禁漫天堂下載工具
 
+**下一版本將會把此專案改名為 JMCCL**
+
 # 使用方式：
 - [下載Python](https://www.python.org/downloads/release/python-3117/)
 - 解壓縮`Jmax.zip`
