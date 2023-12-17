@@ -1,1 +1,1 @@
-start JMax.py
+start pythonw.exe ui.py
