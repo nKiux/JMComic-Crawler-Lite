@@ -1,5 +1,7 @@
 import jmcomic
+import os
 
+os.system('pip install jmcomic -i https://pypi.org/project --upgrade')
 def dld(number):
     global status
     try:

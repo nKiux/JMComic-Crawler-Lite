@@ -1,14 +1,13 @@
-import JMCCL
 import os
 import time
 
 try:
     import jmcomic
     from PyQt5 import QtCore, QtGui, QtWidgets
+    import JMCCL
 except:
     os.system('python -m pip install pyqt5')
-    os.system('python -m pip install jmcomic -i https://pypi.org/project --upgrade')
-
+os.system('python -m pip install jmcomic -i https://pypi.org/project --upgrade')
 global _translate
 _translate = QtCore.QCoreApplication.translate
 
@@ -39,8 +38,8 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         
-        Dialog.setWindowTitle(_translate("Dialog", "JMCCL 禁漫下載"))
-        self.lineEdit.setText(_translate("Dialog", "請輸入本子車號 (數字)"))
+        Dialog.setWindowTitle(_translate("Dialog", "JMCCL"))
+        self.lineEdit.setText(_translate("Dialog", "請輸入本子號碼 (數字)"))
     
     def ok_clicked(self):
         try:
