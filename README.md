@@ -1,6 +1,8 @@
 # JMComic-Crawler-Lite (JMCCL)
 極度輕量化的禁漫天堂下載工具
 
+> 最後檢修日期： 24/03/11 // 檢測結果：各功能正常運作 // @Kiux.Lab
+
 # 使用方式：
 - [下載Python](https://www.python.org/downloads/release/python-3117/)
 - 解壓縮`JMCCL.zip`
